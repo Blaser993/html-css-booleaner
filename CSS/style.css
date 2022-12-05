@@ -3,7 +3,6 @@
     margin-bottom: 0;
 }
 
-/* INIZIO HEADER  */
 .banner{
     height: 100px;
     background-color: rgb(3, 213, 255);
@@ -35,7 +34,19 @@ a{
 .sottotitolo, .note{
     color: rgb(140, 140, 140);
 }
-/* FINE HEADER */
+
+
+.intestazione{
+    border: none;
+    background-color:rgb(100, 153, 251);
+    color: rgb(255, 255, 255);
+}
+
+.dispari{
+    border: 0px;
+    background-color: rgb(160, 233, 248);
+}
+
 
 .bianco{
    color: rgb(255, 255, 255);
