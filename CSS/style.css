@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+
+/* INIZIO HEADER  */
+.banner{
+    height: auto;
+    background-color: rgb(3, 213, 255);
+    background-image: url(../img/pattern.png);
+    background-image: url(../img/logo.svg)
+}
+
+a{
+    text-decoration: none;
+    color: rgb(3, 213, 255);
+}
+
+.titolo{
+    font-size: 2em;
+}
+
+.sottotitolo{
+    font-size: 1em;
+}
+
+.note{
+    font-size: 0.8em;
+}
+
+.sottotitolo, .note{
+    color: rgb(159, 158, 158);
+}
+/* FINE HEADER */
+
