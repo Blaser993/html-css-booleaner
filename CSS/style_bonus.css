@@ -1,0 +1,77 @@
+*{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.banner{
+    height: 100px;
+    background-color: rgb(3, 213, 255);
+    background-image: url(../img/pattern.png);
+    background-size: 35%;
+}
+
+.logo{
+    height: 60px;
+    margin-left: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(3, 213, 255);
+}
+
+.titolo{
+    font-size: 2em;
+}
+
+.sottotitolo{
+    font-size: 1em;
+}
+
+.note, .didascalia{
+    font-size: 0.8em;
+}
+
+.sottotitolo, .note{
+    color: rgb(140, 140, 140);
+}
+
+
+.intestazione{
+    border: none;
+    background-color:rgb(100, 153, 251);
+    color: rgb(255, 255, 255);
+}
+
+.dispari{
+    border: 0px;
+    background-color: rgb(160, 233, 248);
+}
+
+
+.bianco{
+   color: rgb(255, 255, 255);
+}
+
+.grafo, .monitor{
+    height: 207px;
+    background: no-repeat;
+    background-attachment: local;
+}
+
+.monitor{
+    background-image: url(../img/monitor.jpg);
+}
+
+.grafo{
+    background-image: url(../img/graph.jpg);
+}
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: start;
+    border: solid 2;
+    width: 80%;
+}
+
