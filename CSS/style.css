@@ -23,12 +23,12 @@ a{
     font-size: 1em;
 }
 
-.note{
+.note, .didascalia{
     font-size: 0.8em;
 }
 
 .sottotitolo, .note{
-    color: rgb(159, 158, 158);
+    color: rgb(140, 140, 140);
 }
 /* FINE HEADER */
 
