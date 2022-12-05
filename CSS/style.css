@@ -5,8 +5,10 @@
 
 /* INIZIO HEADER  */
 .banner{
-    background-image: url(../img/pattern.png), url(../img/logo.svg);
     background-color: rgb(3, 213, 255);
+    background-image: repeat url(../img/pattern.png);
+    background-image: no-repeat url(../img/logo.svg);
+    background-attachment: local;
 }
 
 a{
