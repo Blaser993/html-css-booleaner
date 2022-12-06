@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booleaner</title>
-    <link rel="stylesheet" href="CSS/style_bonus.css">
+    <title>The Booleaner</title>
+    <!-- <link rel="stylesheet" href="CSS/style_bonus.css"> -->
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 
@@ -15,6 +15,8 @@
 
         <!-- inserisco un div vuoto per gestire l'immagine in alto alla pagina direttamente da css -->
         <div class="banner">
+        <!-- ATTENZIONE!     creare elementi vuoti è sempre sbagliato, ma per questa volta ce lo facciamo andare bene -->
+            <div class="vuoto"></div>
             <img class="logo" src="img/logo.svg" alt="logo booleaner">
         </div>
 
@@ -25,29 +27,33 @@
     <main>
         <!-- creo un div che raggruppi immagini e didascalie -->
         <!-- attribuisco un id per dividere il documento in più parti così da facilitarmi le descrizioni dei commit -->
-        <div id="parte1">
 
-            <div>
+        <article>
+            <header>
                 <h1 class="titolo">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-                <h2 class="sottotitolo">Scritto da <a href="">The Booleaner</a></h2>
-                <h3 class="note">il 10/10/2020</h3>
-            </div>
+            </header>
+            <address class="sottotitolo">
+                Scritto da <a href="">The Booleaner</a> <br>
+                <time datetime="10-10-2020">il 10/10/2020</time>
+            </address>    
 
-            <br>
-
-            <!-- creo un div per raggruppare le immagini a percorso relativo -->
-            <div>
+            <!-- creo un div (figure) per raggruppare le immagini a percorso relativo -->
+            <figure>
                 <img src="img/tim-1.jpg" alt="Knight Foundation">
-                <img src="img/tim-2.jpg" alt="Wikimedia">
-            </div>
-            <h3 class="didascalia">1st Photo: Jhon S. and James L. Knight Foundation, by Scott Hernichsen</h3>
-            <h3 class="didascalia">2nd Photo: Wikimedia, by Paul Clarke</h3>
-        </div>
+                <img src="img/tim-2.jpg" alt="Wikimedia"> 
+
+                <figcaption class="didascalia">
+                    1st Photo: Jhon S. and James L. Knight Foundation, by Scott Hernichsen <br>
+                    2nd Photo: Wikimedia, by Paul Clarke
+                </figcaption>
+            </figure>
+
+        </article>
 
         <br>
 
         <!-- nella parte 2 (denominata così per comodità personale) inserisco i 2 paragrafi, la lista e la tabella -->
-        <div id="parte2">
+        <section>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nostrum iste assumenda a earum possimus suscipit ex, corporis illum omnis, esse ipsa repellendus velit facilis? Magni, ducimus itaque! Aliquid nesciunt aliquam asperiores tempora consequatur <mark>vero, inventore, molestiae nostrum accusantium delectus hic praesentium quas quidem ipsa,</mark> cupiditate odit exercitationem corrupti officiis sapiente dicta earum doloremque? Architecto eius voluptatibus, alias quaerat unde nulla necessitatibus temporibus? Neque explicabo dolores eligendi illum consequatur asperiores quam hic officia quo expedita nisi culpa est ea blanditiis ipsum id quis facere et, cumque sint sed? Optio eius aspernatur facere unde qui similique debitis placeat quis suscipit.
             </p>
@@ -70,11 +76,13 @@
             <br>
 
             <!-- tabella -->
-            <table>
+            <table class="tabella">
                 <thead class="intestazione">
-                    <th>Lorem, ipsum dolor.</th>
-                    <th>Lorem, ipsum dolor.</th>
-                    <th>Lorem, ipsum dolor.</th>
+                    <tr>
+                        <th class="v25">Lorem, ipsum dolor.</th>
+                        <th class="v25">Lorem, ipsum dolor.</th>
+                        <th class="v50">Lorem, ipsum dolor.</th>    
+                    </tr>
                 </thead>
                 <tbody>
                     <tr class="dispari">
@@ -101,27 +109,27 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nostrum iste assumenda a earum possimus suscipit ex, corporis illum omnis, esse ipsa repellendus velit facilis? Magni, ducimus itaque! Aliquid nesciunt aliquam asperiores tempora consequatur <mark>vero, inventore, molestiae nostrum accusantium delectus hic praesentium quas quidem ipsa,</mark> cupiditate odit exercitationem corrupti officiis sapiente dicta earum doloremque? Architecto eius voluptatibus, alias quaerat unde nulla necessitatibus temporibus? Neque explicabo dolores eligendi illum consequatur asperiores quam hic officia quo expedita nisi culpa est ea blanditiis ipsum id quis facere et, cumque sint sed? Optio eius aspernatur facere unde qui similique debitis placeat quis suscipit.
             </p>
 
-        </div>
+        </section>
 
         <br>
 
         <!-- in questa parte inserisco le immagini e i vari titoli -->
-        <div id="parte3">
+        <section>
             <h2 class="sottotitolo">Potrebbero interessarti</h2>
 
-            <div class="grafo">
-                <h2 class="sottotitolo bianco">Lorem, ipsum dolor.</h2>
-            </div>
+            <article class="grafo">
+                <h3 class="sottotitolo bianco">Lorem, ipsum dolor.</h3>
+            </article>
 
             <br>
 
-            <div class="monitor">
-                <h2 class="sottotitolo bianco">Lorem, ipsum dolor.</h2>
-            </div>
+            <article class="monitor">
+                <h3 class="sottotitolo bianco">Lorem, ipsum dolor.</h3>
+            </article>
 
             <br>
 
-        </div>
+        </section>
 
     </main>
 
