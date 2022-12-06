@@ -11,13 +11,20 @@
 }
 
 .logo{
-    height: 60px;
-    margin-left: 10%;
+    margin-left: 11%;
+    height: 40px;
+}
+.vuoto{
+    height: 60%;
 }
 
 a{
     text-decoration: none;
     color: rgb(3, 213, 255);
+}
+
+address{
+    font-style: normal;
 }
 
 .titolo{
@@ -28,19 +35,33 @@ a{
     font-size: 1em;
 }
 
-.note, .didascalia{
+.didascalia, address time{
     font-size: 0.8em;
 }
 
-.sottotitolo, .note{
+.sottotitolo{
+    text-decoration: solid;
     color: rgb(140, 140, 140);
 }
 
+.tabella{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.v25{
+    width: 25%;
+}
+
+.v50{
+    width: 50%;
+}
 
 .intestazione{
     border: none;
     background-color:rgb(100, 153, 251);
     color: rgb(255, 255, 255);
+    text-align: left;
 }
 
 .dispari{
@@ -68,10 +89,7 @@ a{
 }
 
 main{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 11%;
+    margin-right: 11%;
     text-align: start;
-    border: solid 2;
-    width: 80%;
 }
-
